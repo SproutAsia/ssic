@@ -1,3 +1,6 @@
+$( document ).ready(function() {
+    $('#total_ssic').text(10)
+});
 const ssic2020 = {
     "year":2020,
     "results":[
