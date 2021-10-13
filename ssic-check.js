@@ -1,4 +1,4 @@
-const ssic2020 = [
+const ssic2020 = {"results":[
     {
         "ssic": "A",
         "title": "AGRICULTURE AND FISHING"
@@ -6843,4 +6843,4 @@ const ssic2020 = [
         "ssic": "99090",
         "title": "Other extra-territorial organisations and bodies"
     }
-]
+]}
