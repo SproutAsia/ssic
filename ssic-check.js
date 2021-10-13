@@ -1,4 +1,6 @@
-const ssic2020 = {"results":[
+const ssic2020 = {
+    "year":2020,
+    "results":[
     {
         "ssic": "A",
         "title": "AGRICULTURE AND FISHING"
