@@ -63,9 +63,10 @@ $("#btn_search_ssic").click(function() {
     html += '</thead>';
     html += '<tbody>';
 
-	var total = 0;
+    var total = 0;
     var expression = new RegExp(ssic_code, "i");
-    $.each(ssic2020, function(key, value){
+    console.log(dataSSIC);
+    $.each(dataSSIC.results, function(key, value){
       if (value.ssic.search(expression) != -1 || value.title.search(expression) != -1){
         
         var replaceD = "<span class='highlight'>" + ssic_code + "</span>";
