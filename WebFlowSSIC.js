@@ -4,7 +4,6 @@ $("#btn_search_ssic").click(function() {
     $('#table-overflow').html('');
   }else{
     var html = '';
-    $('#ssic_year').text(2020);
     html += '<style>';
     html += 'table {';
     html += 'font-family: arial, sans-serif;';
