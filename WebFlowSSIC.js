@@ -57,7 +57,7 @@ $("#btn_search_ssic").click(function() {
     html += '<table>';
     html += '<thead>';
     html += '<tr style="background-color: #1ea59a!important;color:#ffffff;">';
-    html += '<th class="text-center" style="width: 200px;">SSIC <span id="ssic_year">2020</span></th>';
+    html += '<th class="text-center" style="width: 200px;">SSIC '+dataSSIC.year+'</th>';
     html += '<th>INDUSTRY</th>';
     html += '</tr>';
     html += '</thead>';
@@ -65,7 +65,6 @@ $("#btn_search_ssic").click(function() {
 
     var total = 0;
     var expression = new RegExp(ssic_code, "i");
-    console.log(dataSSIC);
     $.each(dataSSIC.results, function(key, value){
       if (value.ssic.search(expression) != -1 || value.title.search(expression) != -1){
         
